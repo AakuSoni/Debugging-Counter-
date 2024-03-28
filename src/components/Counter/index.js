@@ -3,7 +3,7 @@ import {Component} from 'react'
 import './index.css'
 
 class Counter extends Component {
-  state = {count: 0}
+  setState = {count: 0}
 
   onDecrement = () => {
     this.state.count = this.state.count - 1;
